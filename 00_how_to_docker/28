@@ -1,0 +1,1 @@
+docker service create --name marines --replicas 2 --network overmind --env OC_USERNAME=fdrias --env OC_PASSWD=hctostandart 42school/marine-squad
